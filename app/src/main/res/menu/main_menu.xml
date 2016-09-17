@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/most"
+        android:showAsAction="ifRoom"
+        android:title="Most Populer"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/high"
+        android:showAsAction="ifRoom"
+        android:title="Highest Rate"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/favss"
+        android:showAsAction="ifRoom"
+        android:title="Favorite"
+        tools:ignore="AppCompatResource" />
+
+</menu>
+
+    <!--
+
+     <item
+            android:id="@+id/fetch"
+            android:showAsAction="always"
+            android:title="Fetch More"
+            tools:ignore="AppCompatResource" />-->

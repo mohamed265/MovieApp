@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:andoid="http://schemas.android.com/apk/res/android"
+    andoid:layout_width="match_parent"
+    andoid:layout_height="match_parent">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/moviePoster"
+        android:layout_width="470dp"
+        android:layout_height="380dp"
+        android:scaleType="fitStart" />
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fav_icon_imageview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/stari"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</FrameLayout>
+
